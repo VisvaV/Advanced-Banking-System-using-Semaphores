@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1743665721 source:d:\psg\semester 4\operating systems\advancedbankingsystem\main.cpp
+	"Account.h"
+	"Transaction.h"
+	"Concurrency.h"
+	"FileManager.h"
+	"Interest.h"
+	"IPC.h"
+	"SignalHandler.h"
+	"Account.cpp"
+	"Transaction.cpp"
+	"Concurrency.cpp"
+	"FileManager.cpp"
+	"Interest.cpp"
+	"IPC.cpp"
+	"SignalHandler.cpp"
+	<iostream>
+	<vector>
+	<random>
+	<fstream>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\account.h
+	<string>
+	<mutex>
+	<memory>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\transaction.h
+	"Account.h"
+	<string>
+	<vector>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\concurrency.h
+	"Account.h"
+	<vector>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\filemanager.h
+	"Account.h"
+	<vector>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\interest.h
+	"Account.h"
+	<vector>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\ipc.h
+	"Account.h"
+	<vector>
+	<windows.h>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\signalhandler.h
+	"Account.h"
+	<vector>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\account.cpp
+	"Account.h"
+
+1743621864 d:\psg\semester 4\operating systems\advancedbankingsystem\transaction.cpp
+	"Transaction.h"
+	<iostream>
+	<fstream>
+	<mutex>
+	<sstream>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\concurrency.cpp
+	"Concurrency.h"
+	"Transaction.h"
+	<thread>
+	<chrono>
+
+1743616151 d:\psg\semester 4\operating systems\advancedbankingsystem\filemanager.cpp
+	"FileManager.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\interest.cpp
+	"Interest.h"
+	"Transaction.h"
+	<thread>
+	<chrono>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\ipc.cpp
+	"IPC.h"
+	<iostream>
+
+1743614674 d:\psg\semester 4\operating systems\advancedbankingsystem\signalhandler.cpp
+	"SignalHandler.h"
+	"FileManager.h"
+	"IPC.h"
+	<signal.h>
+	<iostream>
+
